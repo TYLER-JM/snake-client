@@ -6,7 +6,7 @@ const { IP, PORT } = require("./constants");
  */
 const connect = function() {
   const conn = net.createConnection({
-    host: IP, //'172.46.2.204' //172.46.0.135
+    host: IP,
     port: PORT
   });
   conn.on("connect", () => {
