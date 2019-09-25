@@ -21,6 +21,27 @@ const handleUserInput = function(key) {
     // console.log("Move: right");
     connection.write("Move: right");
   }
+
+  if (key === "h") {
+    // console.log("Move: right");
+    connection.write("Say: hello");
+  }
+  if (key === "i") {
+    // console.log("Move: right");
+    connection.write("Say: iWIN");
+  }
+  if (key === "j") {
+    // console.log("Move: right");
+    connection.write("Say: jokes");
+  }
+  if (key === "k") {
+    // console.log("Move: right");
+    connection.write("Say: OKAY");
+  }
+  if (key === "l") {
+    // console.log("Move: right");
+    connection.write("Say: L.O.S.E.R");
+  }
 };
 
 const setupInput = function(conn) {
